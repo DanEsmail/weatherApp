@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+
+body{
+  background-color: grey;
+}
+#title{
+  font-family: "Press Start 2P";
+  font-size: 3vw;
+  margin-left: 10vw;
+  color: black;
+}
+#changing-temp{
+
+  background: none;
+  font-size: 1.5vw;
+  font-family: "Press Start 2P";
+  margin-left: 9vw;
+
+
+}
+#image{
+  width: 50vw;
+  height: auto;
+
+}
+.weather-text{
+  font-size: 2.5vw;
+  font-family: "Press Start 2P";
+  color: black;
+
+
+}
