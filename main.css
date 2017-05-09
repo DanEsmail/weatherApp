@@ -1,32 +1,80 @@
 @import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
 
+html{
+  font-size: 16px;
+}
+
+.font{
+  font-family: "Press Start 2P"
+}
+
 body{
-  background-color: grey;
+  font-size: 62.5%;
+  text-align: center;
+  background-color: #3C8755;
+  color: white;
 }
-#title{
-  font-family: "Press Start 2P";
-  font-size: 3vw;
-  margin-left: 10vw;
-  color: black;
+p{
+  font-size: 1.8em;
 }
-#changing-temp{
 
-  background: none;
-  font-size: 1.5vw;
-  font-family: "Press Start 2P";
-  margin-left: 9vw;
-
-
+h1{
+  border-bottom: solid;
 }
-#image{
-  width: 50vw;
+
+#tv-outside{
+  background-color: #b98752;
+  width: 100%;
   height: auto;
-
+  padding: 5%;
+  border-color: black !important;
+  border: solid;
 }
-.weather-text{
-  font-size: 2.5vw;
-  font-family: "Press Start 2P";
+#weather-tv{
+  background-color: black;
+  border-radius: 20%;
+  width: 90%;
+  height: 50em;
+  margin-left: 5%;
+}
+#weather-ground{
+  background-color: grey;
+  height: 50em;
+  border-radius: 20%;
+}
+
+#weather-sky{
+  background-color:#9AC4FF;
+  height: 75%;
+  border-radius: 20% 20% 0% 0%;
+}
+
+button{
+  border-radius: 100%;
+  padding:1em;
+  margin: 1em;
+  background-color: #54534f;
+  color: white;
+  border-color: black;
+}
+
+#loaction-box{
+  width: auto;
+  height: auto;
+  visibility: hidden;
   color: black;
-
-
+  opacity: 0;
+  transition: opacity .5s, visibility .5s;
+  background-color: #414C7E;
+  border-color: #121C4A;
+  border: solid;
+  position: absolute;
+  z-index: 1;
+  top: 55%;
+  left: 25%;
+  padding: 2em;
+}
+#loaction-box.active{
+  opacity: 1;
+  visibility: visible;
 }
